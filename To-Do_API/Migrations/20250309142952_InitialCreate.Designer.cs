@@ -12,8 +12,8 @@ using To_Do_API.Context;
 namespace To_Do_API.Migrations
 {
     [DbContext(typeof(ToDoDbContext))]
-    [Migration("20250215145028_InitialCreated")]
-    partial class InitialCreated
+    [Migration("20250309142952_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,17 +53,26 @@ namespace To_Do_API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("todoSet");
+                    b.ToTable("ToDo");
 
                     b.HasData(
                         new
                         {
-                            Id = -1,
-                            Created = new DateTime(2025, 2, 15, 21, 50, 28, 13, DateTimeKind.Local).AddTicks(3903),
-                            Description = "Завтра поехать всретить Машу с вокзала!!!",
+                            Id = 1,
+                            Created = new DateTime(2025, 3, 9, 21, 29, 52, 604, DateTimeKind.Local).AddTicks(9708),
+                            Description = "Завтра поехать купить масла.",
                             IsCompleted = false,
                             LastUpdated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Testing"
+                            Title = "Testing 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Created = new DateTime(2025, 3, 9, 21, 29, 52, 604, DateTimeKind.Local).AddTicks(9720),
+                            Description = "Изучить полностью backend.",
+                            IsCompleted = false,
+                            LastUpdated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Testing 2"
                         });
                 });
 #pragma warning restore 612, 618

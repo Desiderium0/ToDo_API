@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "IlSLXbm27ehwJTTWFDZpVcC4AxPFJBWn7bsIkKUsPvE=",
+  "Hash": "IxKzInYNGjZX52UIY7uL+8/NVXRjfxgDIRf47eb2U+w=",
   "Source": "To-Do_API",
   "BasePath": "_content/To-Do_API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

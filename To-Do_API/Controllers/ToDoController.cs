@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using To_Do_API.Context;
-using To_Do_API.Migrations;
+using To_Do_API;
 using To_Do_API.Models;
 
 namespace To_Do_API.Controllers
@@ -30,7 +30,7 @@ namespace To_Do_API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ToDo>> Post(Todo task)
+        public async Task<ActionResult<Todo>> Post(Todo task)
         {
             if (task is null)
                 return BadRequest();
@@ -50,6 +50,7 @@ namespace To_Do_API.Controllers
 
             result.Title = task.Title;
             result.Description = task.Description;  
+            result.IsCompleted = task.IsCompleted;
             result.LastUpdated = DateTime.Now;
 
             await _dbContext.SaveChangesAsync();

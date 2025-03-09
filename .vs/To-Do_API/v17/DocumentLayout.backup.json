@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\",
+  "WorkspaceRootPath": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|c:\\users\\desiderium hcs\\source\\repos\\to-do_api\\to-do_api\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|solutionrelative:to-do_api\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|c:\\users\\desiderium hcs\\source\\repos\\to-do_api\\to-do_api\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|c:\\users\\desiderium hcs\\source\\repos\\todo_api\\to-do_api\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|solutionrelative:to-do_api\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|c:\\users\\desiderium hcs\\source\\repos\\to-do_api\\to-do_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|solutionrelative:to-do_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|c:\\users\\desiderium hcs\\source\\repos\\todo_api\\to-do_api\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|solutionrelative:to-do_api\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|c:\\users\\desiderium hcs\\source\\repos\\to-do_api\\to-do_api\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|solutionrelative:to-do_api\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|c:\\users\\desiderium hcs\\source\\repos\\todo_api\\to-do_api\\migrations\\20250309142952_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CA505F-2180-4F8D-96D4-675934EA2C39}|To-Do_API\\To-Do_API.csproj|solutionrelative:to-do_api\\migrations\\20250309142952_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,6 +26,10 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
@@ -39,51 +39,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ToDoController.cs",
-              "DocumentMoniker": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\Controllers\\ToDoController.cs",
-              "RelativeDocumentMoniker": "To-Do_API\\Controllers\\ToDoController.cs",
-              "ToolTip": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\Controllers\\ToDoController.cs",
-              "RelativeToolTip": "To-Do_API\\Controllers\\ToDoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T02:27:48.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ToDoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\Context\\ToDoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\Context\\ToDoDbContext.cs",
               "RelativeDocumentMoniker": "To-Do_API\\Context\\ToDoDbContext.cs",
-              "ToolTip": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\Context\\ToDoDbContext.cs",
+              "ToolTip": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\Context\\ToDoDbContext.cs",
               "RelativeToolTip": "To-Do_API\\Context\\ToDoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T14:24:45.274Z"
+              "WhenOpened": "2025-03-09T14:35:32.182Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Todo.cs",
-              "DocumentMoniker": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\Models\\Todo.cs",
-              "RelativeDocumentMoniker": "To-Do_API\\Models\\Todo.cs",
-              "ToolTip": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\Models\\Todo.cs",
-              "RelativeToolTip": "To-Do_API\\Models\\Todo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "To-Do_API\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "To-Do_API\\Controllers\\ToDoController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwEcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T14:13:46.19Z",
+              "WhenOpened": "2025-03-09T14:26:06.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\appsettings.json",
-              "RelativeDocumentMoniker": "To-Do_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\appsettings.json",
-              "RelativeToolTip": "To-Do_API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T14:10:10.029Z"
+              "Title": "20250309142952_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\Migrations\\20250309142952_InitialCreate.cs",
+              "RelativeDocumentMoniker": "To-Do_API\\Migrations\\20250309142952_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\Migrations\\20250309142952_InitialCreate.cs",
+              "RelativeToolTip": "To-Do_API\\Migrations\\20250309142952_InitialCreate.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:29:52.882Z"
             }
           ]
         }

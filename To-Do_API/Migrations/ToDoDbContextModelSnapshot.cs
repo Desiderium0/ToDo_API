@@ -55,12 +55,21 @@ namespace To_Do_API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = -1,
-                            Created = new DateTime(2025, 2, 15, 21, 55, 25, 851, DateTimeKind.Local).AddTicks(5769),
-                            Description = "Завтра поехать всретить Машу с вокзала!!!",
+                            Id = 1,
+                            Created = new DateTime(2025, 3, 9, 21, 29, 52, 604, DateTimeKind.Local).AddTicks(9708),
+                            Description = "Завтра поехать купить масла.",
                             IsCompleted = false,
                             LastUpdated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Testing"
+                            Title = "Testing 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Created = new DateTime(2025, 3, 9, 21, 29, 52, 604, DateTimeKind.Local).AddTicks(9720),
+                            Description = "Изучить полностью backend.",
+                            IsCompleted = false,
+                            LastUpdated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Testing 2"
                         });
                 });
 #pragma warning restore 612, 618

@@ -13,6 +13,6 @@ namespace To_Do_API.Models
         public string? Description { get; set; }
         public DateTime Created { get; set; } = DateTime.Now;
         public DateTime LastUpdated { get; set; }
-        public bool IsCompleted { get; set; } = false;
+        public bool IsCompleted { get; set; }
     }
 }

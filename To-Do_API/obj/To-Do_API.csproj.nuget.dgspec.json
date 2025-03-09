@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\To-Do_API.csproj": {}
+    "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\To-Do_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\To-Do_API.csproj": {
+    "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\To-Do_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\To-Do_API.csproj",
+        "projectUniqueName": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\To-Do_API.csproj",
         "projectName": "To-Do_API",
-        "projectPath": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\To-Do_API.csproj",
+        "projectPath": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\To-Do_API.csproj",
         "packagesPath": "C:\\Users\\Desiderium HCS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desiderium HCS\\source\\repos\\To-Do_API\\To-Do_API\\obj\\",
+        "outputPath": "C:\\Users\\Desiderium HCS\\source\\repos\\ToDo_API\\To-Do_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

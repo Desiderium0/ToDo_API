@@ -3,16 +3,18 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace To_Do_API.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreated : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "todoSet",
+                name: "ToDo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -25,20 +27,24 @@ namespace To_Do_API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_todoSet", x => x.Id);
+                    table.PrimaryKey("PK_ToDo", x => x.Id);
                 });
 
             migrationBuilder.InsertData(
-                table: "todoSet",
+                table: "ToDo",
                 columns: new[] { "Id", "Created", "Description", "IsCompleted", "LastUpdated", "Title" },
-                values: new object[] { -1, new DateTime(2025, 2, 15, 21, 50, 28, 13, DateTimeKind.Local).AddTicks(3903), "Завтра поехать всретить Машу с вокзала!!!", false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Testing" });
+                values: new object[,]
+                {
+                    { 1, new DateTime(2025, 3, 9, 21, 29, 52, 604, DateTimeKind.Local).AddTicks(9708), "Завтра поехать купить масла.", false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Testing 1" },
+                    { 2, new DateTime(2025, 3, 9, 21, 29, 52, 604, DateTimeKind.Local).AddTicks(9720), "Изучить полностью backend.", false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Testing 2" }
+                });
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "todoSet");
+                name: "ToDo");
         }
     }
 }

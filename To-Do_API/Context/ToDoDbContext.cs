@@ -14,9 +14,15 @@ namespace To_Do_API.Context
             modelBuilder.Entity<Todo>().HasData(
                 new Todo
                 {
-                    Id = -1,
-                    Title = "Testing",
-                    Description = "Завтра поехать всретить Машу с вокзала!!!"
+                    Id = 1,
+                    Title = "Testing 1",
+                    Description = "Завтра поехать купить масла."
+                },
+                new Todo
+                {
+                    Id = 2,
+                    Title = "Testing 2",
+                    Description = "Изучить полностью backend."
                 });
         }
     }

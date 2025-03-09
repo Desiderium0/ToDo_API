@@ -35,7 +35,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "To_Do_API.Migrations.ToDo",
+        "Type": "To_Do_API.Models.Todo",
         "MediaTypes": [
           "text/plain",
           "application/json",
